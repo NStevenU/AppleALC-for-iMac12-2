@@ -139,7 +139,7 @@
 								</dict>
 = 0 Input Port, Mono(Maybe?), In DspFunction1, In DspFunction1 Port 0
 
-## DSP plugin layout diagram
+## DSP plugin layout diagram (iMac12,2)
 
 ![Layout](image/info.png)
 
