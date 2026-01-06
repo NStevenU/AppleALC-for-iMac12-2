@@ -5,7 +5,7 @@ AppleALC For iMac12,2
 
 I have an iMac (27-inch, Mid 2011) model.
 There’s no design reason for its audio quality to be worse than in 2020, yet the sound quality was poor.
-The midrange was overemphasized, making the highs sound buried.
+The midrange was overemphasized, making the treble sound buried.
 Measurements revealed that Apple’s DSP tuning was suboptimal. So, I created my own new tuning.
 
 For reference, the default OCLP patch includes an older version of AppleALC, which causes issues on iMac12,2 where the built-in DSP and audio sleep functions do not work. When using only the OCLP patch, Apple’s DSP tuning is not applied, resulting in even worse sound quality. My tuned file uses version 1.9.6 with all bugs fixed, ensuring the built-in DSP, audio sleep, and other features work perfectly.
@@ -30,7 +30,7 @@ It became nearly flat from 140Hz to 6kHz. The peak at 10kHz was significantly re
 The dip at 7kHz is due to the speaker itself, so I decided it was unfixable and skipped it.
 This resulted in an almost flat response overall.
 Listening tests confirmed balanced improvements, with highs that were previously buried now audible.
-Compared to the final 2020 iMac 27-inch model—which has a design inevitably limiting sound quality (speaker holes are too small due to thinness) and feels like artificially boosted highs for resolution—my 2011 model, with larger speaker holes, achieves very natural highs and better resolution through this tuning.
+Compared to the final 2020 iMac 27-inch model—which has a design inevitably limiting sound quality (speaker holes are too small due to thinness) and feels like artificially boosted treble for resolution—my 2011 model, with larger speaker holes, achieves very natural treble and better resolution through this tuning.
 
 <br/><br/>
 
