@@ -113,6 +113,35 @@
 									</dict>
 = L+R Channel, 0 Band Index, No Bypass Band, High Pass(LP), Frequency 60Hz(Float32), Q 0.707107(Float32), Gain -3.0103dB(Float32)
 
+## PatchbayInfo info
+* InputPort
+	* First input port of the current block
+* PortInstance
+	* The ID of this port
+* PortWidth
+	* Number of channels
+* SourceFuncInstance
+	* Signal source
+* SourcePortIndex
+	* Select which port to receive the signal from at the signal source
+
+### Example
+								<key>InputPort0</key>
+								<dict>
+									<key>PortInstance</key>
+									<integer>0</integer>
+									<key>PortWidth</key>
+									<integer>1</integer>
+									<key>SourceFuncInstance</key>
+									<integer>1</integer>
+									<key>SourcePortIndex</key>
+									<integer>0</integer>
+								</dict>
+= 0 Input Port, Mono(Maybe?), In DspFunction1, In DspFunction1 Port 0
+
+## DSP plugin layout diagram
+
+![Layout](image/info.png)
 
 ## Sources
 [Fortitude](https://www.insanelymac.com/forum/topic/350193-cannot-find-any-information-on-applehdas-eq-parameters/)
