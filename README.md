@@ -11,6 +11,7 @@ Measurements revealed that Apple’s DSP tuning was suboptimal. So, I created my
 For reference, the default OCLP patch includes an older version of AppleALC, which causes issues on iMac12,2 where the built-in DSP and audio sleep functions do not work. When using only the OCLP patch, Apple’s DSP tuning is not applied, resulting in even worse sound quality. My tuned file uses version 1.9.6 with all bugs fixed, ensuring the built-in DSP, audio sleep, and other features work perfectly.
 
 ## Features
+
 - New DSP Tuning
 - Currently compatible with OCLP macOS 11-15
 
@@ -45,3 +46,8 @@ It’s very simple.
 Download the zip file from the Release, mount the EFI partition, navigate to /EFI/OC/Kexts/, delete the existing AppleALC.kext, overwrite it with the new one, and reboot.
 
 That's it.
+
+## AppleHDA DSP Setting
+
+If you want to tune it yourself, refer to this article.
+[Link](AppleHDA%20DSP.md)
